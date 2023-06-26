@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/index.css">
+    <script src="./js/display.js" type="text/javascript"></script>
+    <script src="./js/calculator.js" type="text/javascript"></script>
+    <script src="./js/index.js" type="text/javascript" defer></script>
+    <title>Calculator</title>
+</head>
+<body>
+    <h1>Calculator App</h1>
+    <div class="container">
+        <div class="calculator">
+            <div class="screencontainer">
+                <div id="entryvalue"></div>
+                <div id="displayedvalue"></div>
+            </div>
+                <button class="col2 btn" onclick="display.deleteEverything()">C</button>
+                <button class="btn" onclick="display.delete()">&larr;</button>
+                <button class="operator btn" value="division">%</button>
+                <button class="number btn">7</button>
+                <button class="number btn">8</button>
+                <button class="number btn">9</button>
+                <button class="operator btn" value="multiplication">x</button>
+                <button class="number btn">4</button>
+                <button class="number btn">5</button>
+                <button class="number btn">6</button>
+                <button class="operator btn" value="subtraction">-</button>
+                <button class="number btn">1</button>
+                <button class="number btn">2</button>
+                <button class="number btn">3</button>
+                <button class="operator btn" value="addition">+</button>
+                <button class="col2 number btn">0</button>
+                <button class="number btn">,</button>
+                <button class="operator btn" value="equalto">=</button>
+        </div>        
+    </div>
+</body>
+</html>
